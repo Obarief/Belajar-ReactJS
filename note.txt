@@ -15,3 +15,6 @@
     -TitleCase/PascalCase digunakan untuk komponennya dan camelCase untuk propnya
 }
 -antara tag pembuka dan penutup disebut children
+-penggunaan prop tambahan bisa di dalam tag pembuka
+
+-component artinya setiap component bisa dipisah dan dapat digabung di <app/>
