@@ -18,3 +18,13 @@
 -penggunaan prop tambahan bisa di dalam tag pembuka
 
 -component artinya setiap component bisa dipisah dan dapat digabung di <app/>
+
+-useState : me-render tampilan baru (contoh) { 
+    1. const [count, setCount] = useState(0); // selalu berpasangan antara nilai awal dengan set selanjutnya
+    2. handleClick // pengaturan logika count misal + 1 dll
+    3. mengatur tampilan dan tombol
+
+jika
+        ingin menambah lebih dari 1 maka gunakan updater bawaan setState Reactjs dengan
+    1. setState(x => x + 1) // x mengambil nilai count terbaru
+}
