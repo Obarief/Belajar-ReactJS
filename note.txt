@@ -1,0 +1,17 @@
+-tulis sekali gunakan dimanapun maksudnya adalah bisa untuk mobile dan web
+-dukungannya banyak
+-function state
+
+-coba dengan viteJS
+-main.jsx digunakan untuk state management
+
+-prettier digunakan untuk menentukan format yg ada di semua module
+-npx prettier --check . ((.)mengecek semua module)
+-npx prettier --write . (untuk melakukan pemformatan yang sesuai untuk semua module)
+
+
+-custom component agar lebih terstruktur (untuk item yg berulang){
+    penggunaan PascalCase bukan camelCase
+    -TitleCase/PascalCase digunakan untuk komponennya dan camelCase untuk propnya
+}
+-antara tag pembuka dan penutup disebut children
