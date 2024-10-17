@@ -32,3 +32,5 @@ jika
 -menggunakan material UI untuk button dan icon
 
 -pembuatan form realtime update dan terkirim ke console
+
+-penggunaan useNavigate lebih diutamakan ketika ada tombol submit daripada link to(yang semestinya digunakan untuk sebuah teks link atau anchor)
