@@ -28,3 +28,7 @@ jika
         ingin menambah lebih dari 1 maka gunakan updater bawaan setState Reactjs dengan
     1. setState(x => x + 1) // x mengambil nilai count terbaru
 }
+
+-menggunakan material UI untuk button dan icon
+
+-pembuatan form realtime update dan terkirim ke console

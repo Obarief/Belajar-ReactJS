@@ -4,10 +4,10 @@ function Card(prop) {
 }
 
 function Title(prop) {
-    const { children } = prop;
+    const { children, className } = prop;
 
     return (
-        <div className='p-4 border-b'>
+        <div className={`p-4 border-b ${className}`}>
             <h1 className='text-2xl font-semibold'>{children}</h1>
         </div>
     );
