@@ -6,7 +6,7 @@ function Belajarkomponen() {
     const navigate = useNavigate();
     function Submit(event) {
         event.preventDefault();
-        
+
         navigate('/belajarform');
     }
 
@@ -26,7 +26,9 @@ function Belajarkomponen() {
                             excepturi porro numquam officia repellendus nobis illum, vero nostrum in beatae eum. Consequuntur, earum!
                         </Card.Body>
                         <Card.Footer>
-                            <ButtonMUI type="submit" onClick={Submit}>Register</ButtonMUI>
+                            <ButtonMUI type='submit' onClick={Submit}>
+                                Register
+                            </ButtonMUI>
                         </Card.Footer>
                     </Card>
                 </div>

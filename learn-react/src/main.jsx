@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import Belajarkomponen from './page/belajarkomponen.jsx';
 import Belajarusestate from './page/belajarusestate.jsx';
 import Belajarform from './page/belajarform.jsx';
+import Belajartodo from './page/belajartodo.jsx';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     {
         path: '/belajarform',
         element: <Belajarform />,
+    },
+    {
+        path: '/belajartodo',
+        element: <Belajartodo />,
     },
 ]);
 

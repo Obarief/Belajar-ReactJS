@@ -4,7 +4,7 @@ export default function PlaceContentCenter(prop) {
     return (
         <div className='bg-black '>
             <div className='bg-violet-900/20 min-h-screen flex items-center justify-center antialiased tracking-tight'>
-                <div className='max-w-lg  flex flex-col gap-5'>{children}</div>
+                <div className='flex flex-col gap-5'>{children}</div>
             </div>
         </div>
     );

@@ -11,10 +11,10 @@ import Button from '@mui/material/Button';
 // }
 
 export default function ButtonMUI(prop) {
-    const { children, text = 'submit', type = 'submit' } = prop;
+    const { className, children, text = 'submit', type = 'submit' } = prop;
 
     return (
-        <Button variant='outlined' {...prop} type={type}>
+        <Button className={className} variant='outlined' {...prop} type={type}>
             {children || text}
         </Button>
     );

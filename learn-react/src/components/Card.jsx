@@ -1,6 +1,6 @@
 function Card(prop) {
     const { children } = prop;
-    return <div className='shadow-lg rounded-xl bg-white'>{children}</div>;
+    return <div className=' shadow-lg rounded-xl bg-white'>{children}</div>;
 }
 
 function Title(prop) {
@@ -12,7 +12,6 @@ function Title(prop) {
         </div>
     );
 }
-
 function Body(prop) {
     const { children } = prop;
 
